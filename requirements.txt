@@ -1,0 +1,51 @@
+aiohttp @ file:///D:/bld/aiohttp_1610358740361/work
+APScheduler @ file:///D:/bld/apscheduler_1610113922770/work
+async-timeout==3.0.1
+attrs @ file:///home/conda/feedstock_root/build_artifacts/attrs_1605083924122/work
+blinker==1.4
+brotlipy==0.7.0
+cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1593420445823/work
+certifi==2020.12.5
+cffi==1.13.1
+chardet @ file:///D:/bld/chardet_1602255508636/work
+click==7.1.2
+cryptography==2.8
+decorator==4.4.2
+future @ file:///D:/bld/future_1605203720223/work
+google-api-core @ file:///D:/bld/google-api-core-split_1599169095664/work
+google-api-python-client @ file:///home/conda/feedstock_root/build_artifacts/google-api-python-client_1605727368232/work
+google-auth @ file:///home/conda/feedstock_root/build_artifacts/google-auth_1608136875028/work
+google-auth-httplib2 @ file:///home/conda/feedstock_root/build_artifacts/google-auth-httplib2_1601483325475/work
+google-auth-oauthlib @ file:///home/conda/feedstock_root/build_artifacts/google-auth-oauthlib_1603996258953/work
+googleapis-common-protos @ file:///D:/bld/googleapis-common-protos-feedstock_1604414944715/work
+httplib2 @ file:///home/conda/feedstock_root/build_artifacts/httplib2_1590007784658/work
+idna==2.8
+multidict @ file:///D:/bld/multidict_1610319170773/work
+numpy @ file:///D:/bld/numpy_1610324782150/work
+oauth2client==4.1.2
+oauthlib==3.0.1
+pandas @ file:///D:/bld/pandas_1609079442959/work
+protobuf==3.14.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.7
+pycparser==2.19
+PyJWT @ file:///home/conda/feedstock_root/build_artifacts/pyjwt_1609976754451/work
+pyOpenSSL==19.1.0
+PySocks @ file:///D:/bld/pysocks_1602327034683/work
+python-dateutil==2.8.1
+python-telegram-bot @ file:///home/conda/feedstock_root/build_artifacts/python-telegram-bot_1606697258887/work
+pytz @ file:///home/conda/feedstock_root/build_artifacts/pytz_1608904108784/work
+requests==2.22.0
+requests-oauthlib @ file:///home/conda/feedstock_root/build_artifacts/requests-oauthlib_1595492159598/work
+rsa @ file:///home/conda/feedstock_root/build_artifacts/rsa_1610280765105/work
+simplejson @ file:///D:/bld/simplejson_1610147289159/work
+six==1.15.0
+tornado==6.0.3
+typing-extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1602702424206/work
+tzlocal @ file:///home/conda/feedstock_root/build_artifacts/tzlocal_1588939190034/work
+ujson @ file:///D:/bld/ujson_1610113472097/work
+uritemplate==3.0.1
+urllib3==1.25.6
+win-inet-pton @ file:///D:/bld/win_inet_pton_1602260115377/work
+wincertstore==0.2
+yarl @ file:///D:/bld/yarl_1610354399983/work
