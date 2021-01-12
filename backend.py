@@ -8,10 +8,15 @@ from gsheet_reader import get_cg_data
 def get_youths(CG):
     """Return a list of youths in each cg"""
     df = get_cg_data(CG)
-    return df['Name (as in NOAH)'].tolist()
+    ls = df['Name (as in NOAH)'].tolist()
+    clean_ls = []
+    for elm in ls:
+        if elm == '' or elm == None:
+            pass
+        else:
+            clean_ls.append(elm)
 
-
-
+    return clean_ls
 
 def get_latest_dates():
     """Returns the 4 latest dates that has an event on it"""
@@ -29,4 +34,4 @@ def get_latest_dates():
 if __name__ == '__main__':
     # print(get_latest_dates())
     # print(date.today())
-    print(get_youths('SA A'))
+    print(get_youths('SA C'))

@@ -50,7 +50,7 @@ def get_cg_data(CG) -> str:
     result = sheet.values().get(spreadsheetId=SPREADSHEET_ID[CG],
                                 range=RANGE_NAME).execute()
     values = result.get('values', [])
-    # print(values)
+    #print(values)
     df_temp = pd.DataFrame(values)
     df = df_temp[1:]
     df.columns = df_temp.iloc[0]
@@ -60,5 +60,5 @@ def get_cg_data(CG) -> str:
 
 
 
-if __name__ == '__main__':
-    print(get_cg_data('CJ A'))
+#if __name__ == '__main__':
+    #print(get_cg_data('CJ A'))
